@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "Toy Car", "price": 10, "image": "/OIP.jpeg" },
+    { "id": 2, "name": "Doll House", "price": 25, "image": "/OIP.jpeg" },
+    { "id": 3, "name": "Doll House", "price": 25, "image": "/OIP.jpeg" },
+    { "id": 4, "name": "Doll House", "price": 25, "image": "/OIP.jpeg" },
+    { "id": 5, "name": "Doll House", "price": 25, "image": "/OIP.jpeg" },
+    { "id": 6, "name": "Doll House", "price": 25, "image": "/OIP.jpeg" },
+    { "id": 7, "name": "Doll House", "price": 25, "image": "/OIP.jpeg" }
+  ]
+  
