@@ -1,76 +1,27 @@
 import React from 'react'
 
-export default function ContactPage() {
+export default function AboutPage() {
     return (
-        <div className="bg-red-600 text-white min-h-screen py-16 px-8">
-            <div className="max-w-3xl w-full bg-white text-gray-800 rounded-lg shadow-xl p-12">
-                <h1 className="text-4xl font-bold text-red-600 text-center mb-8">Contact Us</h1>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold text-red-600 mb-4">Get in Touch</h2>
-                    <p className="text-lg leading-7 mb-6">
-                        Have any questions or concerns? We're here to assist you. Reach out to us, and we'll get back to you as soon as possible.
-                    </p>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold text-red-600 mb-4">Contact Form</h2>
-                    <form className="space-y-6">
-                        <div>
-                            <label className="block text-lg text-gray-800 mb-2">Name</label>
-                            <input
-                                type="text"
-                                name="name"
-                                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
-                                placeholder="Enter your full name"
-                            />
-                        </div>
-                        <div>
-                            <label className="block text-lg text-gray-800 mb-2">Email</label>
-                            <input
-                                type="email"
-                                name="email"
-                                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
-                                placeholder="Enter your email address"
-                            />
-                        </div>
-                        <div>
-                            <label className="block text-lg text-gray-800 mb-2">Message</label>
-                            <textarea
-                                name="message"
-                                rows="4"
-                                className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
-                                placeholder="Write your message here"
-                            ></textarea>
-                        </div>
-                        <div className="text-center">
-                            <button
-                                type="submit"
-                                className="px-8 py-3 text-white bg-yellow-500 rounded-lg hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500"
-                            >
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
-                </section>
-
-                <section>
-                    <h2 className="text-2xl font-semibold text-red-600 mb-4">Our Contact Information</h2>
-                    <p className="text-lg leading-7 mb-6">
-                        You can also reach us through the following methods:
-                    </p>
-                    <ul className="space-y-4 text-lg">
-                        <li>
-                            <strong>Email:</strong> support@[storename].com
-                        </li>
-                        <li>
-                            <strong>Phone:</strong> +1 (800) 123-4567
-                        </li>
-                        <li>
-                            <strong>Address:</strong> 123 Kids' Street, Funville, Country
-                        </li>
+        <div className="min-h-screen bg-red-50 p-8">
+            <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-2xl p-10">
+                <h1 className="text-4xl font-extrabold text-red-600 mb-6">About Us</h1>
+                <p className="text-gray-800 text-lg leading-relaxed">
+                    Welcome to our kids' store! We are passionate about providing an exciting and enjoyable shopping experience for families. Our goal is to offer high-quality products that bring joy, comfort, and creativity to your little ones.
+                </p>
+                <p className="text-gray-800 text-lg leading-relaxed mt-6">
+                    Whether you're searching for trendy clothing, educational toys, or everyday essentials, we’ve got you covered. Our collections are carefully curated to ensure they meet the highest standards of safety, style, and durability.
+                </p>
+                <p className="text-gray-800 text-lg leading-relaxed mt-6">
+                    Thank you for choosing us as part of your family's journey. We look forward to helping you create cherished moments with your children.
+                </p>
+                <div className="mt-10 bg-red-100 p-6 rounded-lg">
+                    <h2 className="text-2xl font-bold text-red-600">Our Core Values</h2>
+                    <ul className="mt-4 space-y-2 text-gray-800 text-lg">
+                        <li>✨ <strong>Quality:</strong> Providing only the best for your children.</li>
+                        <li>🚀 <strong>Innovation:</strong> Bringing fresh ideas to life.</li>
+                        <li>🤝 <strong>Customer Focus:</strong> Your satisfaction matters most.</li>
                     </ul>
-                </section>
+                </div>
             </div>
         </div>
     );
