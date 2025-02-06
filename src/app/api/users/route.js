@@ -7,7 +7,6 @@ export async function POST(request) {
     const { email, password } = await request.json();
     const filePath = path.join(process.cwd(), "public/users.json");
 
-    // Check if the file exists
     if (!fs.existsSync(filePath)) {
       return NextResponse.json({ error: "users.json not found" }, { status: 404 });
     }
@@ -15,14 +14,14 @@ export async function POST(request) {
     const fileData = fs.readFileSync(filePath, "utf-8");
     const users = JSON.parse(fileData);
 
-    // Find the user with matching credentials
+    
     const user = users.find((user) => user.email === email && user.password === password);
 
     if (!user) {
       return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
     }
 
-    return NextResponse.json(user); // Return user data including password
+    return NextResponse.json(user); 
   } catch (error) {
     console.error(error);
     return NextResponse.json({ error: "Server error" }, { status: 500 });

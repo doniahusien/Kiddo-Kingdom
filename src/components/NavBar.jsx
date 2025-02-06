@@ -14,7 +14,6 @@ const NavBar = () => {
         dispatch(logout());
     };
 
-    // Toggle mobile menu
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
