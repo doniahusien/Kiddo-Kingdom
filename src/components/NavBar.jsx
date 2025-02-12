@@ -22,7 +22,7 @@ const NavBar = () => {
         <header className="bg-red-600 text-white shadow-md">
             <div className="container mx-auto flex justify-between items-center py-4 px-6 sm:px-8">
                 {/* Logo and Brand */}
-                <div className="flex items-center space-x-2 sm:space-x-4">
+                <div className="flex items-center space-x-3 sm:space-x-4">
                     <Image src={logo} alt="logo" width={80} height={80} />
                     <Link href="/" className="text-3xl sm:text-4xl md:text-4xl lg:text-3xl font-extrabold text-yellow-200 hover:text-yellow-300 transition duration-300">
                         Kiddo Kingdom
